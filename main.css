@@ -1,0 +1,53 @@
+:root {
+    --primary-80: #2B3062;
+    --primary-60: #414997;
+    --primary-40: #7277B9;
+    --primary-20: #A9ADD4;
+    --primary-10: #E5E4EE;
+    --secondary-80: #09625F;
+    --secondary-60: #16ABA6;
+    --secondary-40: #36E2DC;
+    --secondary-20: #86EEEB;
+    --secondary-10: #CDF9F6;
+    --neutral-80: #4B5059;
+    --neutral-60: #767A80;
+    --neutral-40: #A0A3A7;
+    --neutral-20: #CBCCCE;
+    --neutral-10: #F5F5F5;
+    --danger-dark: #BD2E44;
+    --danger-medium: #D66171;
+    --danger-light: #E8A6B1;
+    --warning-dark: #EFE630;
+    --warning-medium: #F3EE6A;
+    --warning-light: #F8F3AB;
+    --checked-dark: #73F030;
+    --checked-medium: #98F26B;
+    --checked-light: #C7F7AB;
+    --text-dark: #042235;
+    --text-medium: #2A2F46;
+    --text-normal: #4f566b;
+    --text-light: #697386;
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: -apple-system , BlinkMacSystemFont , "Segoe UI" , "Roboto" , "Helvetica Neue" , "Ubuntu" , sans-serif;
+    font-size: 62.5%;
+    color: var(--text-dark);
+}
+h1 {
+    font-size: 4.2rem;
+}
+h2 {
+    font-size: 2.6rem;
+}
+h3 {
+    font-size: 2rem;
+}
+p {
+    font-size: 1.4rem;
+    color: var(--text-normal);
+}
