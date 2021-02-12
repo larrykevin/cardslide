@@ -1,19 +1,23 @@
 :root {
-    --primary-80: #2B3062;
-    --primary-60: #414997;
-    --primary-40: #7277B9;
-    --primary-20: #A9ADD4;
-    --primary-10: #E5E4EE;
+    --primary-80: #1F2247;
+    --primary-60: #2B3062;
+    --primary-40: #414997;
+    --primary-20: #7277B9;
+    --primary-10: #A9ADD4;
+    --primary-00: #E5E4EE;
     --secondary-80: #09625F;
     --secondary-60: #16ABA6;
     --secondary-40: #36E2DC;
     --secondary-20: #86EEEB;
     --secondary-10: #CDF9F6;
-    --neutral-80: #4B5059;
-    --neutral-60: #767A80;
-    --neutral-40: #A0A3A7;
-    --neutral-20: #CBCCCE;
-    --neutral-10: #F5F5F5;
+    --secondary-00: #F0FCFB;
+    --neutral-80: #92A7BA;
+    --neutral-60: #A4B6C5;
+    --neutral-40: #B6C4D1;
+    --neutral-20: #C8D3DC;
+    --neutral-10: #DAE1E8;
+    --neutral-05: #F1F6F9;
+    --neutral-00: #ffffff;
     --danger-dark: #BD2E44;
     --danger-medium: #D66171;
     --danger-light: #E8A6B1;
@@ -32,10 +36,10 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-size: 62.5%;
 }
 body {
     font-family: -apple-system , BlinkMacSystemFont , "Segoe UI" , "Roboto" , "Helvetica Neue" , "Ubuntu" , sans-serif;
-    font-size: 62.5%;
     color: var(--text-dark);
 }
 h1 {
@@ -48,6 +52,7 @@ h3 {
     font-size: 2rem;
 }
 p {
-    font-size: 1.4rem;
+    font-size: 1.8rem;
+    line-height: 2.8rem;
     color: var(--text-normal);
 }

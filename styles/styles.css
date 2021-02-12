@@ -1,0 +1,79 @@
+main {
+    margin-top: 60px;
+}
+
+.card {
+    width: 1440px;
+    margin: 0 auto;
+}
+.card__container {
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1.2fr 1fr;
+    grid-template-rows: 18px 214px 1fr;
+    background-color: var(--neutral-00);
+    box-shadow: 0px 4px 8px #c8d3dc33;
+    border-radius: 0 0 10px 10px;
+    width: 960px;
+    height: 800px;
+}
+.card__container--rect {
+    background-color: #E73434;
+    height: 18px;
+    border-radius: 10px 10px 0 0;
+    grid-column: 1 / 3;
+    grid-row: 1 / 2;
+}
+.card__container--logo {
+    display: flex;
+    align-items: center;
+    grid-column: 1 / 3;
+    grid-row: 2 / 3;
+    background-color: #f1f6f9;
+    padding-left: 50px;
+}
+.card__container--description {
+    grid-column: 1 / 2;
+    grid-row: 3 / 4;
+    padding: 50px 0 0 50px;
+}
+.card__container--image {
+    display: flex;
+    justify-content: center;
+    grid-column: 2 / 3;
+    grid-row: 2 / 4;
+    padding: 50px 0;
+}
+.buttons {
+    position: relative;
+}
+.button__circle {
+    width: 52px; height: 52px;
+    background-color: var(--neutral-00);
+    box-shadow: 0px 4px 8px #c8d3dc33;
+    border-radius: 50%;
+    border: none;
+    outline: none;
+}
+.button__circle:hover {
+    background-color: var(--neutral-05);
+    transition: 0.4s;
+}
+.button__right, .button__left {
+    position: absolute;
+}
+.button__left {
+    transform: rotate(180deg);
+    left: -26px;
+    top: -740px;
+}
+.button__right {
+    left: 934px;
+    top: -740px;
+}
+.footer p {
+    font-size: 1.4rem;
+    color: var(--neutral-60);
+    text-align: center;
+    margin-top: 20px;
+}
