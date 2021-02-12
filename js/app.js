@@ -1,4 +1,4 @@
-const brands = document.getElementById('brands');
+/* const brands = document.getElementById('brands');
 const templateCard = document.getElementById('template__card').content;
 const fragment = document.createDocumentFragment();
 let i = 0;  //Brand index
@@ -40,4 +40,6 @@ function next() {
 
 function setBrand() {
     return printCards(data[i])
-}
+} */
+
+
