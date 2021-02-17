@@ -2,22 +2,22 @@
     {
         "id": 1,
         "bgColor": "#E73434",
-        "logoImage": "../assets/logo-cocacola.png",
+        "logoImage": "assets/logo-cocacola.png",
         "description": "Coca-Cola, conocida comúnmente como Coca en muchos países hispanohablantes (en inglés Coke), es una bebida gaseosa y refrescante vendida a nivel mundial en tiendas, restaurantes y máquinas expendedoras en más de doscientos países o territorios.Es un producto de The Coca-Cola Company, de origen estadounidense. En un principio, cuando la inventó el farmacéutico John Pemberton, fue concebida como una bebida medicinal patentada, aunque fue adquirida posteriormente por el empresario Asa Griggs Candler, que hizo de la bebida una de las más consumidas del siglo xx, y del siglo xxi.",
-        "brandImage": "../assets/cocacola-image.png"
+        "brandImage": "assets/cocacola-image.png"
     },
     {
         "id": 2,
         "bgColor": "#ff9900",
-        "logoImage": "../assets/logo-amazon.png",
+        "logoImage": "assets/logo-amazon.png",
         "description": "Amazon, Inc. es una compañía estadounidense de comercio electrónico y servicios de computación en la nube a todos los niveles con sede en la ciudad estadounidense de Seattle,Estado de Washington.Su lema es: From A to Z (traducido al español: De la A a la Z). Es una de las primeras grandes compañías en vender bienes a través de Internet.En la actualidad está totalmente diversificada y catalogada en diferentes líneas de productos, ofreciendo DVD, CD de música, software, videojuegos, electrónica, ropa, muebles, comida, libros, etc. Es la marca de venta al por menor más valiosa del mundo según el índice BrandZ.",
-        "brandImage": "../assets/amazon-image.png"
+        "brandImage": "assets/amazon-image.png"
     },
     {
         "id": 3,
         "bgColor": "#9146ff",
-        "logoImage": "../assets/logo-twitch.png",
+        "logoImage": "assets/logo-twitch.png",
         "description": "Twitch (también conocido como Twitch.TV) es una plataforma que permite realizar transmisiones en vivo propiedad de Amazon, Inc., siendo una de sus principales funciones la retransmisión de videojuegos en directo, teniendo como principal competidor a YouTube.Presentado como un subproducto de otra plataforma de streaming de interés general, el sitio principalmente se enfoca a los videojuegos, incluyendo 'playthroughs' de juegos jugados por usuarios, transmisión de eSports, y otros eventos relacionados con los videojuegos.",
-        "brandImage": "../assets/twitch-image.png"
+        "brandImage": "assets/twitch-image.png"
     }
 ]
