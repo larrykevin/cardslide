@@ -14,7 +14,7 @@ let renderCard = data => {
     imageCard.setAttribute('src', data[i].brandImage)
 }
 
-fetch('../api/api.json')
+fetch('./api/api.json')
   .then( response => response.json() )
   .then( data => {
     renderCard(data)
