@@ -1,45 +1,35 @@
-/* const brands = document.getElementById('brands');
-const templateCard = document.getElementById('template__card').content;
-const fragment = document.createDocumentFragment();
-let i = 0;  //Brand index
+const rectCard = document.getElementById('rect-card');
+const logoCard = document.getElementById('logo-card');
+const descriptionCard = document.getElementById('description-card');
+const imageCard = document.getElementById('image-card');
+const buttonLeft = document.getElementById('button-left');
+const buttonRight = document.getElementById('button-right');
 
-const fetchData = async () => {
-    try {
-        const res = await fetch('../api/api.json')
-        const data = await res.json()
-        printCards(data[i])
-        const brandObject = [data[0], data[1], data[2]]
-    } catch(error) {
-        console.error(error)
-    }
+let i = 0;
+
+let renderCard = data => {
+    rectCard.style.backgroundColor = data[i].bgColor
+    logoCard.setAttribute('src', data[i].logoImage)
+    descriptionCard.textContent = data[i].description
+    imageCard.setAttribute('src', data[i].brandImage)
 }
 
-const printCards = data => {
-    templateCard.querySelector('.card__container--logo img').setAttribute('src', data.logoImage)
-    templateCard.querySelector('.card__container--description p').textContent = data.description
-    templateCard.querySelector('.card__container--image img').setAttribute('src', data.brandImage)
-
-    const clone = templateCard.cloneNode(true)
-    fragment.appendChild(clone)
-    brands.appendChild(fragment)
-}
-
-fetchData()
-
-function prev() {
-    if(i <= 0 ) i = brandObject.length;
-    i--;
-    return setBrand();
-}
-
-function next() {
-    if(i >= brandObject.length - 1) i = -1;
-    i++;
-    return setBrand();
-}
-
-function setBrand() {
-    return printCards(data[i])
-} */
-
-
+fetch('../api/api.json')
+  .then( response => response.json() )
+  .then( data => {
+    renderCard(data)
+    buttonRight.addEventListener('click', () => {
+      i++
+      if(i === 3) {
+        i = 0
+      }
+      return renderCard(data)
+    })
+    buttonLeft.addEventListener('click', () => {
+      i--
+      if(i === -1) {
+        i = 2
+      }
+      return renderCard(data)
+    })
+})
